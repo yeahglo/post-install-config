@@ -93,9 +93,9 @@ Agents are help desk professionals who work the tickets.
 - Navigate to Admin Panel > Agents > Add New Agent
 - Name the agent "Anthony Torres"
 - Add Anthony's department as System Administrators
-- Add her role as Supreme Admin
-- Add her to SMEs team, Level II Support
-- Add her Extended Access to Support so she can also work tickets
+- Add his role as Supreme Admin
+- Add his to SMEs team, Level II Support
+- Add his Extended Access to Support so his can also work tickets
 
 </br>
 
