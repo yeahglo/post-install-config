@@ -34,7 +34,7 @@ This walkthrough is a set up of the osTicket software
 
 </br>
 
-**Step 1 - Create a Role:**
+**Step 1: Create a Role**
 Roles determine levels of access.
 - Navigage to Admin panel > Agents > Roles > Add New Role
 - Name the role "Supreme Admin"
@@ -52,7 +52,7 @@ Roles determine levels of access.
 
 </br>
 
-**Step 2 - Create a Department:**
+**Step 2: Create a Department**
 Departments determine ticket routing and allow you to customize settings.
 - Navigage to Admin panel > Agents > Roles > Add New Department
 - Name the department "System Administrators"
@@ -67,7 +67,7 @@ Departments determine ticket routing and allow you to customize settings.
 
 </br>
 
-**Step 3 - Create a Team:**
+**Step 3: Create a Team**
 Teams allow you to pull agents for specific use cases, such as your SMEs.
 - Navigage to Admin panel > Agents > Roles > Add New Team
 - Create a "Level II Support" (we already have a Level I as a default)
@@ -78,7 +78,7 @@ Teams allow you to pull agents for specific use cases, such as your SMEs.
 
 </br>
 
-**Step 4 - Allow anonymous users to create tickets:**
+**Step 4: Allow anonymous users to create tickets**
 Doing this ensures that our users, aka "ticket owners", can create tickets easily.
 - Admin Panel > Settings > User Settings > uncheck “Require registration and login to create tickets”
 
@@ -88,7 +88,7 @@ Doing this ensures that our users, aka "ticket owners", can create tickets easil
 
 </br>
 
-**Step 5 - Create an Agent:**
+**Step 5: Create an Agent**
 Agents are help desk professionals who work the tickets.
 - Navigate to Admin Panel > Agents > Add New Agent
 - Name the agent "Anthony Torres"
