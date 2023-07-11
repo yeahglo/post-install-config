@@ -1,7 +1,7 @@
 <!--<img width="790" alt="Screen Shot 2023-07-05 at 12 01 33 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/c7e47b62-8276-47e5-8c1a-69944eee66b1">
 
 <h1>osTicket - Post-Install Configuration</h1>
-This walkthrough is a continuation of the installation and configuration of the help desk ticketing software, osTicket. In this tutorial, we'll be configuring roles and permissions within the software.
+This walkthrough is a set up of the osTicket software 
 
 <h2>Environments and Technologies Used</h2>
 
@@ -20,10 +20,32 @@ This walkthrough is a continuation of the installation and configuration of the 
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- xxx
+- Define Roles, Departments, Teams and set permissions
+- Create Agents and Users
+- Create SLAs and Help Topics
 
-<h2>Configuration Steps</h2>
+**Step 1: Create Roles:**
+Roles determine levels of access.
+- Navigage to Admin panel > Agents > Roles > Add new role
+- Name the role "Supreme Admin"
+- Checkmark all permissions under Tickets, Tasks, and Knowledgebase
 
-**Step 1: xxx:**
-- xxx
--->
+
+**Step 2: Create Departments:**
+Departments determine ticket routing and allow you to customize settings.
+- Navigage to Admin panel > Agents > Roles > Add New Department
+- Name the department "System Administrators"
+- Leave the defaults settings and SLAs for now
+
+**Step 3: Create Teams:**
+Teams allow you to pull agents for specific use cases, or define SMEs.
+- Navigage to Admin panel > Agents > Roles > Add New Team
+- Create a "Level II Support team to add a second level to the existing default
+
+**Step 4: Allow anonymous users to create tickets**
+Doing this ensures that our users, aka "ticket owners", can create tickets easily.
+- Admin Panel > Settings > User Settings > uncheck “Require registration and login to create tickets”
+
+**Step 5: Create Agents**
+Agents are help desk-->
+
