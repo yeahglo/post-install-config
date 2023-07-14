@@ -26,21 +26,20 @@ This walkthrough is a set up of the osTicket software
 - Create Agents and Users
 - Create SLAs and Help Topics
 
-</br>
+<br/>
 
 <img width="1280" alt="Screen Shot 2023-07-10 at 8 28 57 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/393bec16-8e3e-41f7-8c36-7a2999077e63">
 
 **_We start by logging into our Agent Login Page for osTicket._** 
 
-</br>
+<br/>
 
-**Step 1: Create a Role**
-Roles determine levels of access.
+**Step 1: Create a Role** - Roles determine levels of access.
 - Navigage to Admin panel > Agents > Roles > Add New Role
 - Name the role "Supreme Admin"
 - Checkmark all permissions under Tickets, Tasks, and Knowledgebase
 
-</br>
+<br/>
 
 <img width="1153" alt="Screen Shot 2023-07-10 at 8 38 54 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/35da20c1-7601-4b94-9cae-7332de1fee43">
 
@@ -50,63 +49,96 @@ Roles determine levels of access.
 
 **_The Supreme Admin Role should have all permissions checked under Tickets, Tasks and Knowledgebase._**
 
-</br>
+<br/>
 
-**Step 2: Create a Department**
-Departments determine ticket routing and allow you to customize settings.
+**Step 2: Create a Department** - Departments determine ticket routing and allow you to customize settings.
 - Navigage to Admin panel > Agents > Roles > Add New Department
 - Name the department "System Administrators"
-- Leave the defaults settings and SLAs for now
+- Leave the defaults settings for now
 
-</br>
-
+<br/>
 
 <img width="1200" alt="Screen Shot 2023-07-10 at 8 47 15 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/40d692b0-9e32-4a4a-8a5a-cbecf5ee427e">
 
 **_Create the System Administrators Department._**
 
-</br>
+<br/>
 
-**Step 3: Create a Team**
-Teams allow you to pull agents for specific use cases, such as your SMEs.
+**Step 3: Create a Team** - Teams allow you to pull agents for specific use cases.
 - Navigage to Admin panel > Agents > Roles > Add New Team
 - Create a "Level II Support" (we already have a Level I as a default)
+
+<br/>
 
 <img width="1203" alt="Screen Shot 2023-07-10 at 8 51 26 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/0460bfed-4a5a-4f0f-a1b1-128fd2ecb792">
 
 **_Add a Level II Support Team._**
 
-</br>
+<br/>
 
-**Step 4: Allow anonymous users to create tickets**
-Doing this ensures that our users, aka "ticket owners", can create tickets easily.
+**Step 4: Allow anonymous users to create tickets** - Doing this ensures that our users, aka "ticket owners", can create tickets easily.
 - Admin Panel > Settings > User Settings > uncheck “Require registration and login to create tickets”
+
+<br/>
 
 <img width="1194" alt="Screen Shot 2023-07-10 at 8 54 48 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/c3957e06-b945-4543-8512-637c96341b00">
 
 **_Make sure the requirement for registration is unchecked._**
 
-</br>
+<br/>
 
-**Step 5: Create an Agent**
-Agents are help desk professionals who work the tickets.
+**Step 5: Create an Agent** - Agents are help desk professionals who work the tickets.
 - Navigate to Admin Panel > Agents > Add New Agent
 - Name the agent "Anthony Torres"
 - Add Anthony's department as System Administrators
-- Add his role as Supreme Admin
-- Add his to SMEs team, Level II Support
-- Add his Extended Access to Support so his can also work tickets
+- Assign the Supreme Admin role for him
+- Assign him to the Level II Support Team
+- Add Support under the Extended Access so he can view/edit tickets
 
-</br>
+<br/>
 
 <img width="1105" alt="Screen Shot 2023-07-10 at 8 58 23 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/4f007583-8104-4b34-96cc-7fff281ec850">
 
 **_Create an Agent profile._**
 
-</br>
+<br/>
 
 <img width="1207" alt="Screen Shot 2023-07-10 at 8 59 04 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/b597218c-86e8-43f9-b19f-eafdfd86dbd5">
 
 **_To set a password for practice, make sure your screen looks like this (unchecked) and click "set"._**
 
+<br/>
 
+**Step 6: Create a User** - Users create support tickets to get assistance from agents.
+- Navigate to Agent Panel > Users > Add User (Note: You can also import users)
+- Name the User "Dylan Thompson" and add an email for them
+
+<br/>
+
+<img width="1201" alt="Screen Shot 2023-07-10 at 9 17 26 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/21612baa-a541-4fb7-98b9-decdbc8e05b8">
+
+**_Create a User profile._**
+
+<br/>
+
+**Step 7: Create an SLA** - Service Level Agreements (SLAs) define what kind of response time is warranted for each ticket.
+- Navigate to Admin Panel > Manage > SLA > Add New SLA Plan
+- Name the SLA Plan "SEV-A" and set it on a 24/7 schedule with a 1-hour grace period
+
+<br/>
+
+<img width="1208" alt="Screen Shot 2023-07-10 at 9 21 25 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/24720102-a884-4e04-bf8c-831ee9cf867d">
+
+**_Create an SLA._**
+
+<br/>
+
+**Step 8: Create a Help Topic** - Help Topics allow users to set a category for their ticket.
+- Navigate to Admin Panel > Manage > Help Topics > Add New Help Topic
+- Name the Help Topic "Personal Computer Issues"
+
+<br/>
+
+<img width="1243" alt="Screen Shot 2023-07-13 at 9 38 00 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/01c09ec5-eec5-4ec2-94b6-9601455c9f40">
+
+**_Create a Help Topic._**
