@@ -47,7 +47,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1096" alt="Screen Shot 2023-07-10 at 8 38 24 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/f96fa232-d29c-42ce-b204-a94779417277">
 
-**_The Supreme Admin Role should have all permissions checked under Tickets, Tasks and Knowledgebase._**
+**_For our Supreme Admin, we're turning all of these permissions on. Notice there are plenty of permissions you can adjust under Tickets, Tasks and Knowledgebase._**
 
 <br/>
 
@@ -60,7 +60,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1200" alt="Screen Shot 2023-07-10 at 8 47 15 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/40d692b0-9e32-4a4a-8a5a-cbecf5ee427e">
 
-**_Create the System Administrators Department._**
+**_We are using the default settings for the Systems Administrator Department, but note, you can assign SLAs at this level._**
 
 <br/>
 
@@ -72,7 +72,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1203" alt="Screen Shot 2023-07-10 at 8 51 26 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/0460bfed-4a5a-4f0f-a1b1-128fd2ecb792">
 
-**_Add a Level II Support Team._**
+**_Again, you have the option to add more settings at the Team level, including assigning a team lead or adding members as you set up the team._**
 
 <br/>
 
@@ -83,7 +83,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1194" alt="Screen Shot 2023-07-10 at 8 54 48 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/c3957e06-b945-4543-8512-637c96341b00">
 
-**_Make sure the requirement for registration is unchecked._**
+**_At this time, the default is already unchecked so we just need to review this._**
 
 <br/>
 
@@ -99,13 +99,13 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1105" alt="Screen Shot 2023-07-10 at 8 58 23 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/4f007583-8104-4b34-96cc-7fff281ec850">
 
-**_Create an Agent profile._**
+**_The agent profile has many options to set access and permissions._**
 
 <br/>
 
 <img width="1207" alt="Screen Shot 2023-07-10 at 8 59 04 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/b597218c-86e8-43f9-b19f-eafdfd86dbd5">
 
-**_To set a password for practice, make sure your screen looks like this (unchecked) and click "set"._**
+**_Under the agent profile, osTicket lets you set and change the password as long as you have the permissions to change this._**
 
 <br/>
 
@@ -117,7 +117,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1201" alt="Screen Shot 2023-07-10 at 9 17 26 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/21612baa-a541-4fb7-98b9-decdbc8e05b8">
 
-**_Create a User profile._**
+**_Users are the ticket owners. It's possible to create them one by one, but you can also import them in bulk._**
 
 <br/>
 
@@ -129,7 +129,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1208" alt="Screen Shot 2023-07-10 at 9 21 25 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/24720102-a884-4e04-bf8c-831ee9cf867d">
 
-**_Create an SLA._**
+**_SLAs can be set up to define what kind of timeline each ticket has in order to remain compliant with the service contract._**
 
 <br/>
 
@@ -141,4 +141,4 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1243" alt="Screen Shot 2023-07-13 at 9 38 00 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/01c09ec5-eec5-4ec2-94b6-9601455c9f40">
 
-**_Create a Help Topic._**
+**_Help Topics will be visible to users to assign to individual tickets. Note the option to create parent/child relationships and to customize further under the Tickets and Forms tabs._**
