@@ -141,4 +141,4 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1243" alt="Screen Shot 2023-07-13 at 9 38 00 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/01c09ec5-eec5-4ec2-94b6-9601455c9f40">
 
-**_Help Topics will be visible to users to assign to individual tickets. Note the option to create parent/child relationships and to customize further under the Tickets and Forms tabs._**
+**_Help Topics will be visible to users to assign to individual tickets. Note the option to create parent/child relationships and to customize further under the New Tickets options and Forms tabs._**
