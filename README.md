@@ -60,7 +60,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1200" alt="Screen Shot 2023-07-10 at 8 47 15 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/40d692b0-9e32-4a4a-8a5a-cbecf5ee427e">
 
-**_We are using the default settings for the Systems Administrator Department, but note, you can assign SLAs at this level._**
+**_We are using the default settings for the Systems Administrator Department, but you can assign SLAs at this level._**
 
 <br/>
 
