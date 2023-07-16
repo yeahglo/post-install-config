@@ -47,7 +47,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1096" alt="Screen Shot 2023-07-10 at 8 38 24 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/f96fa232-d29c-42ce-b204-a94779417277">
 
-**_For our Supreme Admin, we're turning all of these permissions on. Notice there are plenty of permissions you can adjust under Tickets, Tasks and Knowledgebase._**
+**_For our Supreme Admin, we're turning all of these permissions on. Notice there are plenty of permissions you can adjust under Tickets, Tasks, and Knowledgebase._**
 
 <br/>
 
