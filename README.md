@@ -145,5 +145,5 @@ This walkthrough is a set up of the osTicket software
 
 <h2>Next Steps</h2>
 
-Now that the software is configured, continue to the third part to see a demo of creating and working tickets.
-[Post-install Configuration](https://github.com/yeahglo/ticket-lifecycle)
+Continue to the third part to create and work a ticket.
+[Ticket Lifecycle](https://github.com/yeahglo/ticket-lifecycle)
