@@ -30,7 +30,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1280" alt="Screen Shot 2023-07-10 at 8 28 57 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/393bec16-8e3e-41f7-8c36-7a2999077e63">
 
-**_We start by logging into our Agent Login Page for osTicket._** 
+**_Start by logging into the Agent Login Page for osTicket._** 
 
 <br/>
 
@@ -47,11 +47,11 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1096" alt="Screen Shot 2023-07-10 at 8 38 24 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/f96fa232-d29c-42ce-b204-a94779417277">
 
-**_For our Supreme Admin, we're turning all of these permissions on. Notice there are plenty of permissions you can adjust under Tickets, Tasks, and Knowledgebase._**
+**_Turn on all of these permissions. There are plenty of permissions under Tickets, Tasks, and Knowledgebase._**
 
 <br/>
 
-**Step 2: Create a Department** - Departments determine ticket routing and allow you to customize settings.
+**Step 2: Create a Department** - Departments determine ticket routing.
 - Navigage to Admin panel > Agents > Roles > Add New Department
 - Name the department "System Administrators"
 - Leave the defaults settings for now
@@ -60,30 +60,30 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1200" alt="Screen Shot 2023-07-10 at 8 47 15 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/40d692b0-9e32-4a4a-8a5a-cbecf5ee427e">
 
-**_We are using the default settings for the Systems Administrator Department, but you can assign SLAs at this level._**
+**_Use the default settings for the Systems Administrators Department._**
 
 <br/>
 
 **Step 3: Create a Team** - Teams allow you to pull agents for specific use cases.
 - Navigage to Admin panel > Agents > Roles > Add New Team
-- Create a "Level II Support" (we already have a Level I as a default)
+- Create a "Level II Support" _(Note: You already have a Level I as a default.)_
 
 <br/>
 
 <img width="1203" alt="Screen Shot 2023-07-10 at 8 51 26 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/0460bfed-4a5a-4f0f-a1b1-128fd2ecb792">
 
-**_Again, you have the option to add more settings at the Team level, including assigning a team lead or adding members as you set up the team._**
+**_More settings can be configured at the Team level, including assigning a team lead or adding members as you set up the team._**
 
 <br/>
 
-**Step 4: Allow anonymous users to create tickets** - Doing this ensures that our users, aka "ticket owners", can create tickets easily.
+**Step 4: Allow anonymous users to create tickets** - Doing this ensures users, aka "ticket owners", can create tickets easily.
 - Admin Panel > Settings > User Settings > uncheck “Require registration and login to create tickets”
 
 <br/>
 
 <img width="1194" alt="Screen Shot 2023-07-10 at 8 54 48 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/c3957e06-b945-4543-8512-637c96341b00">
 
-**_At this time, the default is already unchecked so we just need to review this._**
+**_Review the setting to allow anonymous users to create tickets._**
 
 <br/>
 
@@ -110,7 +110,7 @@ This walkthrough is a set up of the osTicket software
 <br/>
 
 **Step 6: Create a User** - Users create support tickets to get assistance from agents.
-- Navigate to Agent Panel > Users > Add User (Note: You can also import users)
+- Navigate to Agent Panel > Users > Add User _(Note: You can also import users)_
 - Name the User "Dylan Thompson" and add an email for them
 
 <br/>
@@ -121,7 +121,7 @@ This walkthrough is a set up of the osTicket software
 
 <br/>
 
-**Step 7: Create an SLA** - Service Level Agreements (SLAs) define what kind of response time is warranted for each ticket.
+**Step 7: Create an SLA** - Service Level Agreements (SLAs) define what kind of response time and priority level is warranted for each ticket.
 - Navigate to Admin Panel > Manage > SLA > Add New SLA Plan
 - Name the SLA Plan "SEV-A" and set it on a 24/7 schedule with a 1-hour grace period
 
@@ -141,7 +141,7 @@ This walkthrough is a set up of the osTicket software
 
 <img width="1243" alt="Screen Shot 2023-07-13 at 9 38 00 AM" src="https://github.com/yeahglo/post-install-config/assets/91516100/01c09ec5-eec5-4ec2-94b6-9601455c9f40">
 
-**_Help Topics will be visible to users to assign to individual tickets. Note the option to create parent/child relationships and to customize further under the New Tickets options and Forms tabs._**
+**_Help Topics will be visible to users to assign to individual tickets. You can customize further under the "New Tickets options" and "Forms" tabs._**
 
 <h2>Next Steps</h2>
 
